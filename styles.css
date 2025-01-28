@@ -1,17 +1,11 @@
+@import url(../styles/header.css);
+
 :root {
     --cor-background: #EBECEE;
+    --header-backgroung: #FFFFFF; 
 
 
 }
-
-/* 
-index
--linkar reset.css
-
-CSS
--criar reset.css
-
-*/
 
 body {
     background-color: var(--cor-background);
