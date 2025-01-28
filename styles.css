@@ -6,19 +6,12 @@
 
 /* 
 index
--criada estrutura HTML
--adicionado link CSS
-styles
--criada :root CSS
--criado reset CSS
+-linkar reset.css
+
+CSS
+-criar reset.css
+
 */
-
-
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
 body {
     background-color: var(--cor-background);
