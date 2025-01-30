@@ -24,12 +24,36 @@
     display:none;
     position:absolute;
     top: 100%;
+    width: 60vw; /* 60% do viewport */
+}
+
+.lista-menu__titulo, 
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--header-backgroung);
+}
+
+
+
+.lista-menu__titulo {
+    color: var(--cor-titulo-menu);
+}
+
+.lista-menu__link {
+    background: var(--cor-item-menu);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 .container__checkbox:checked ~ .lista-menu { 
     display:block;
+    
 }
 
 .container__imagem {
     padding: 1em;       /* cria um espaçamento entre os icones */
 }
+
+
