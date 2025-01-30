@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: var(--header-backgroung);
+    background-color: var(--header-background);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@
 .lista-menu__titulo, 
 .lista-menu__item {
     padding: 1em;
-    background-color: var(--header-backgroung);
+    background-color: var(--header-background);
 }
 
 

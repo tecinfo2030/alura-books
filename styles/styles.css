@@ -1,8 +1,9 @@
 @import url(../styles/header.css);
+@import url(../styles/banner.css);
 
 :root {
     --cor-background: #EBECEE;
-    --header-backgroung: #FFFFFF; 
+    --header-background: #FFFFFF; 
     --cor-titulo-menu: #EB9B00;
     --cor-item-menu: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins", serif;
@@ -12,6 +13,6 @@
 body {
     background-color: var(--cor-background);
     font-family: var(--fonte-principal);
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 400;
 }
