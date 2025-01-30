@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative; /*posicionado relativo a sua posição original*/
 }
 
 .cabecalho__menu-hamburguer {
@@ -17,6 +18,16 @@
 .container {
     display: flex;
     align-items: center;
+}
+
+.lista-menu {
+    display:none;
+    position:absolute;
+    top: 100%;
+}
+
+.container__checkbox:checked ~ .lista-menu { 
+    display:block;
 }
 
 .container__imagem {
