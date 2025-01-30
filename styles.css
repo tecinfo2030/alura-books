@@ -5,10 +5,13 @@
     --header-backgroung: #FFFFFF; 
     --cor-titulo-menu: #EB9B00;
     --cor-item-menu: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
-
+    --fonte-principal: "Poppins", serif;
 
 }
 
 body {
     background-color: var(--cor-background);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }

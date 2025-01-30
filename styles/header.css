@@ -20,6 +20,11 @@
     align-items: center;
 }
 
+.container__checkbox{
+    display: none;
+    
+}
+
 .lista-menu {
     display:none;
     position:absolute;
@@ -37,6 +42,7 @@
 
 .lista-menu__titulo {
     color: var(--cor-titulo-menu);
+    font-weight: 700;
 }
 
 .lista-menu__link {
