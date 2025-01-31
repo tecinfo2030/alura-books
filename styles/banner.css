@@ -42,3 +42,7 @@
     background-position: 1em;
     
 }
+
+.banner__pesquisa::-webkit-search-cancel-button {
+    filter: invert(100%) brightness(300%);
+}
