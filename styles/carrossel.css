@@ -1,0 +1,15 @@
+/* .carrosel {
+    
+} */
+
+.carrossel__titulo {
+    color: var(--cor-titulo-menu);
+    font-size: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    font-style: normal;
+    padding: 1em;
+
+}
