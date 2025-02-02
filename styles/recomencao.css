@@ -11,27 +11,27 @@
 
 
 
-.card-recomendacao__card-body {
+.card-recomendacao__content {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
 }
 
 
-.card-recomendacao__card-body__main {
+.card-recomendacao__content__text {
     display: flex;
     flex-direction: column;
     margin: 1em 0 1em 1em;
 }
 
-.card-recomendacao__card-body__main-h3 {
+.card-recomendacao__content__text-h3 {
     color: var(--cor-titulo-menu);
     font-size: 1em;
     font-weight: 700;
     line-height: normal;
 }
 
-.card-recomendacao__card-body__main-h2{
+.card-recomendacao__content__text-h2{
     color: var(--cor-titulo-card);
     font-size: 1.125em;
     font-weight: 700;
@@ -39,14 +39,14 @@
     margin: 0.5em 0;
 }
 
-.card-recomendacao__card-body__main-p {
+.card-recomendacao__content__text-p {
     color: rgba(0, 0, 0, 0.85);
     font-size: 0.875;
     font-weight: 400;
     line-height: normal;
 }
 
-.card-recomendacao__card-body__capa-livro-imagem{
+.card-recomendacao__content__capa-livro-imagem{
     margin: 1em;
     /* width: 100%;
     height: 100%; */
@@ -61,7 +61,7 @@
     margin: 1em;
 }
 
-.card-recomendacao__footer__icones {
+.card-recomendacao__footer-icon {
     display: flex;
     flex-direction: row;
     gap: 0.5em;
