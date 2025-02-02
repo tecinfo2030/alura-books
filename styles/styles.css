@@ -1,13 +1,16 @@
 @import url(../styles/header.css);
 @import url(../styles/banner.css);
 @import url(../styles/carrossel.css);
+@import url(../styles/recomencao.css);
 
 :root {
     --cor-background: #EBECEE;
     --header-background: #FFFFFF; 
     --cor-titulo-menu: #EB9B00;
     --cor-item-menu: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --cor-titulo-card: #002F52; 
     --fonte-principal: "Poppins", serif;
+    
 
 }
 
