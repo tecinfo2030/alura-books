@@ -24,6 +24,11 @@
     margin: 1em 0 1em 1em;
 }
 
+.card-recomendacao__content__text-img {
+    width: min-content;
+    height: min-content;
+}
+
 .card-recomendacao__content__text-h3 {
     color: var(--cor-titulo-menu);
     font-size: 1em;
