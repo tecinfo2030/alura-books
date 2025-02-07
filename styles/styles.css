@@ -11,10 +11,16 @@
     --header-background: #FFFFFF; 
     --cor-titulo-menu: #EB9B00;
     --cor-item-menu: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
-    --cor-titulo-card: #002F52; 
-    --fonte-principal: "Poppins", serif;
+    --cor-titulo-card: #002F52;
     
-
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #002F52;
+    --cor-destaque: #EB9B00;
+    --cor-detalhe: #EBECEE;
+    --cor-gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    
+    --fonte-principal: "Poppins", serif;
+    --fonte-secundaria: "Josefin Sans", serif;
 }
 
 body {
