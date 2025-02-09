@@ -1,6 +1,6 @@
 .topicos {
-    background: var(--cor-item-menu);
-    color: var(--header-background);
+    background: var(--cor-gradiente);
+    color: var(--cor-principal);
     text-align: center;
 }
 
@@ -19,14 +19,27 @@
 }
 
 .topicos__list-item {
-    background-color: var(--cor-titulo-menu);
+    background-color: var(--cor-destaque);
     padding: 1em 2em;
     margin: 1em 0.5em;
 }
 
 .topicos__link {
-    color: var(--header-background);
+    color: var(--cor-principal);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+/* --------------------------------------- Media Query 1024 ---------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+    .topicos-h3 {
+        font-size: 1.5em;
+    }
+
+    .topicos__link {
+        font-size: 1.5em;
+    }
+    
 }
