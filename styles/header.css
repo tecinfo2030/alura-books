@@ -10,6 +10,10 @@
     display:none;
 }
 
+.menu--barra {
+    display:none;
+}
+
 .cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -59,6 +63,7 @@
     
 }
 
+
 .container__imagem {
     padding: 1em;       /* cria um espaçamento entre os icones */
 }
@@ -89,6 +94,22 @@
         font-weight: 700;
     }
 
+    .menu--barra {
+        display:flex;
+        
+    }
+
+    .menu--barra__item {
+        text-transform: uppercase;
+        padding: 1em;
+    }
+
+    .menu--barra__link {
+        color: var( --cor-extra-black);
+        font-size: 1em;
+        text-decoration: none;
+    }
+
     .cabecalho__menu-hamburguer {
         display:none;
     }
@@ -96,6 +117,16 @@
     .icone--favoritos {
         display: none;
     }
+
+    .menu--barra__botao:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .menu--barra__botao {
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width: 1728px){
