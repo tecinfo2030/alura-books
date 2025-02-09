@@ -10,9 +10,9 @@
     display:none;
 }
 
-.cabecalho__titulo--negrito {
+/* .cabecalho__titulo--negrito {
 
-}
+} */
 
 .cabecalho__menu-hamburguer {
     width: 24px;
@@ -70,7 +70,7 @@
     padding: 1em;       /* cria um espaçamento entre os icones */
 }
 
-/* --------------------- Media Queries do Header ----------------------------------------- */
+/* ----------------------------------- Media Queries do Header ----------------------------------------- */
 
 @media screen and (min-width:1024px) {
     .cabecalho__titulo,
