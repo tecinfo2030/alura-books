@@ -7,3 +7,41 @@ hr {
     padding: 1em;
 }
 
+.rodape__lista {
+    display: none;
+}
+
+/* ------------------------------------ Media Queries do Footer --------------------------------------- */
+
+@media screen and (min-width: 1024px){
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+        padding: 3em 1em;
+    }
+
+    .rodape__titulo {
+        font-size: 1.5em;
+    }
+
+    .rodape__lista {
+        display: block;
+        margin: 0 1em;
+    }
+
+    .rodape__lista-titulo {
+        color: var( --cor-extra-claro);
+        font-size: .875em;
+        font-weight: 400;
+        text-transform: uppercase;
+        /* margin: 2em 0;  */
+    }
+
+    .rodape__lista-link {
+        display: flex;
+        align-items: center;
+        color: var( --cor-extra);
+        text-decoration: none;
+        padding: .5em;
+    }
+}

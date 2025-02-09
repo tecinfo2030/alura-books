@@ -18,6 +18,9 @@
     --cor-destaque: #EB9B00;
     --cor-detalhe: #EBECEE;
     --cor-gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+
+    --cor-extra: #474646;
+    --cor-extra-claro: #858585;
     
     --fonte-principal: "Poppins", serif;
     --fonte-secundaria: "Josefin Sans", serif;
