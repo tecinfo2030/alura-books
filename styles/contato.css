@@ -57,3 +57,21 @@
         margin-right: 10em;
     }
 }
+
+/* --------------------------------------- Media Query 1728px ---------------------------------------------*/
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        justify-content: center;
+        padding: 5em;
+    }
+
+    .contato__descricao {
+        margin-right: 2em;
+    }
+
+    .contato__input{
+        width: 20%
+    }
+    
+}
