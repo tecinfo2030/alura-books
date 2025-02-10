@@ -32,6 +32,15 @@
     display: none;
 }
 
+/* -----------------  Customizando o menu-hambúrguer quando é clicado ---------------------------- */ 
+.container__checkbox:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+    background-image: url("../imagens/MenuAberto.svg"); 
+}
+
+.container__checkbox:checked ~ .container__rotulo {
+    background: var(--cor-gradiente);
+}
+/* ----------------------------------------------------------------------------------------------- */
 .lista-menu {
     display:none;
     position:absolute;
@@ -76,7 +85,7 @@
     display:none;
 }
 
-/* ----------------------------------- Media Queries do Header ----------------------------------------- */
+/* ----------------------------------- Media Queries 1024px ----------------------------------------- */
 
 @media screen and (min-width:1024px) {
     .cabecalho__titulo,
@@ -127,8 +136,24 @@
     .menu--barra__botao {
         display: none;
     }
+/* -----------------  Customizando o menu quando é clicado e no hover ---------------------------- */ 
+    .menu--barra__botao:checked ~ .opcoes__rotulo > .menu--barra__item {
+        background: var(--cor-gradiente);
+        color:var(--cor-principal);
+    }
+
+    .lista-menu__item:hover {
+        background: var(--cor-gradiente);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--cor-principal);
+        text-decoration: none;
+    }
     
 }
+
+/* ----------------------------------- Media Queries 1728px ----------------------------------------- */
 
 @media screen and (min-width: 1728px){
     .container__link {
