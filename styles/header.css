@@ -88,6 +88,7 @@
     .cabecalho__titulo {
         font-weight: 400;
         display: block;
+        margin-right: 2em;
     }
 
     .cabecalho__titulo--negrito {
@@ -140,6 +141,11 @@
 
     .cabecalho__menu-hamburguer {
         display: none;
+    }
+
+    .menu--barra {
+        margin-right: auto;
+        
     }
 
     .icone--favoritos {
